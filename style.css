@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Montserrat:400,700');
+
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.profile-photo {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+footer {
+    background: #efefef;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Archivo Black", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.main-content {
+    padding-bottom: 20px;
+}
+
+/* -----------------------------------
+	Responsive CSS
+--------------------------------------------------------------------------------------------- */
+
+/* Small devices (tablets, 768px and up) @screen-sm-min */
+@media (min-width: 768px) {
+    .profile-photo {
+        width: 30%;
+        float: right;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+	
+}
+
+/* Medium devices (desktops, 992px and up) @screen-md-min */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
